@@ -1,0 +1,10 @@
+.hi{
+   font-size: 50px;
+   color: blue;
+   top: 50%;
+   left: 50%;
+   position: absolute;
+   transform: translate(-50%,-50%);
+   
+}
+
