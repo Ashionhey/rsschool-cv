@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>RSchool</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <div class="container">
+         <div class="header">
+            <div class="header__task">
+               <h1 class="cv">Curriculum Vitae</h1>
+            </div>
+         </div>
+
+
+         <div class="main">
+            <div class="me">
+               <div class="me__image">
+                  <img src="./img/its-me.JPG" alt="" class="me__itsme">
+               </div>
+               <div class="me__body">
+                  <div class="me__name">Ruslan</div>
+                  <div class="me__surname">Zinatullin</div>
+                  <div class="me__profession">Frontend developer (in a future)</div>
+               </div>
+            </div>
+            <div class="about">
+               <div class="about__me">
+                  <h2 class="about-me__title">About me</h2>
+                  <div class="about-me__info"> Hello everyone, I am 32 years old and I work as a driver, my goal is to
+                     change my profession, develop and learn something new
+                     , about a year ago I wanted to learn a new profession, the choice fell on the front-end and since
+                     then I have gradually studied on my own,
+                     that's how I got to RSchool when I was looking for information, I hope I can study here and learn
+                     something new
+                  </div>
+               </div>
+               <nav class="contacts">
+                  <h2 class="contacts__title">Contacts</h2>
+                  <ul class="contacts__list">
+                     <li class="contacts__item">
+                        Discord: Ashion#6882
+                     </li>
+                     <li class="contacts__item">
+                        GitHub: https://github.com/Ashionhey
+                     </li>
+                     <li class="contacts__item">
+                        E-mail: ashion169@gmail.com
+                     </li>
+                  </ul>
+               </nav>
+               <nav class="skills">
+                  <h2 class="skills__title">Skills</h2>
+                  <ul class="skills__list">
+                     <li class="skills__item">
+                        HTML
+                     </li>
+                     <li class="skills__item">
+                        CSS
+                     </li>
+                     <li class="skills__item">
+                        JS
+                     </li>
+                     <li class="skills__item">
+                        BEM
+                     </li>
+                     <li class="skills__item">
+                        Git
+                     </li>
+                     <li class="skills__item">
+                        Gulp
+                     </li>
+                  </ul>
+               </nav>
+               <div class="example-code">
+                  <h2 class="example-code__title">Example code</h2>
+                  <pre class="example-code__code">
+const blocks = document.querySelectorAll('[data-block]');
+
+blocks.forEach(function (item) {
+   item.addEventListener('click', function () {
+      this.nextElementSibling.classList.toggle('hidden');
+   })
+});
+                  </pre>
+               </div>
+               <div class="education">
+                  <h2 class="education__title">
+                     Education
+                  </h2>
+                  <p class="education__text">
+                     My education is car mechanic <br>
+                     I studied on YouTube on the layout designer's channel
+                  </p>
+               </div>
+               <div class="english">
+                  <h2 class="english__title">English</h2>
+                  <p class="english__text">My english is beginner level, my assistant is google translate</p>
+               </div>
+            </div>
+         </div>
+         <div class="footer">
+            <a href="https://rs.school/js/" target="_blank" class="footer__logo">
+               <img class="footer__img" src="https://app.rs.school/static/images/logo-rsschool3.png" alt="Logo">
+            </a>
+            <a href="https://github.com/Ashionhey" target="_blank" class="footer__git">Github</a>
+            <div class="footer__year">2022</div>
+
+
+         </div>
+      </div>
+   </div>
+</body>
+
+</html>

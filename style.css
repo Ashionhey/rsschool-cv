@@ -1,0 +1,152 @@
+
+body{
+   margin: 0;
+}
+ul{
+   padding: 0 0 0 20px;
+}
+.wrapper {
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   overflow: hidden;   
+   background-color: rgba(240, 219, 191, 0.996);
+   color: rgba(0, 0, 0, 0.83);
+}
+.container{
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 0 20px;
+}
+.header {
+}
+.cv{
+   text-align: center;
+   font-size: 70px;
+}
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.main {
+   flex: 1 1 auto;
+}
+.me {
+   display: flex;
+   margin: 0 -20px 50px -20px;
+}
+.me__image {
+   flex: 1 1 50%;
+   padding: 0 10px;
+}
+.me__itsme {
+   max-width: 350px;
+   border-radius: 20px 0;
+}
+.me__body { 
+   padding: 50px 10px 0 10px;
+   flex: 1 1 50%;
+}
+.me__name {
+   font-size: 70px;
+   font-weight: 700;
+   margin-bottom: 30px;
+}
+.me__surname{
+   margin-bottom: 30px;
+   font-size: 100px;
+   font-weight: 900;
+}
+.me__profession{
+   font-size: 30px;
+}
+.about {
+   display: flex;
+   margin-bottom: 50px;
+   flex-wrap: wrap;
+}
+.about__me {
+   flex: 0 0 100%;
+}
+.about-me__title {
+   text-align: center;
+   font-size: 30px;
+}
+.about-me__info {
+   font-size: 18px;
+   line-height: 25px;
+}
+.contacts {
+   flex: 0 0 50%;
+}
+.contacts__title {
+   
+   font-size: 30px;
+}
+.contacts__list {
+   font-size: 18px;
+   line-height: 25px;
+}
+.contacts__item {
+}
+.skills {
+   flex: 0 0 50%;
+}
+.skills__title {
+   
+   font-size: 30px;
+}
+.skills__list {
+   font-size: 18px;
+   line-height: 25px;
+}
+.skills__item {
+}
+.example-code {
+   flex: 0 0 50%;
+}
+.example-code__title {
+   
+   font-size: 30px;
+}
+.example-code__code{
+   font-size: 18px;
+}
+.education {
+   flex: 0 0 50%;
+}
+.education__title {
+   
+   font-size: 30px;
+}
+.education__text {
+   font-size: 18px;
+   line-height: 30px;
+}
+.english {
+   flex: 0 0 50%;
+}
+.english__title { 
+   
+   font-size: 30px;
+}
+.english__text {
+   font-size: 18px;
+}
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.footer {
+   display: flex;
+   justify-content: center;
+}
+.footer__git {
+   margin-right: 20px;
+   font-size: 20px;
+}
+.footer__year {
+   font-size: 20px;
+}
+.footer__logo {
+   margin-right: 50px;
+}
+.footer__img{
+   width: 100px;
+   height: 50px;
+}
