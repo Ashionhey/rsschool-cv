@@ -131,6 +131,15 @@ ul{
 .english__text {
    font-size: 18px;
 }
+.projects {
+   flex: 0 0 50%;
+}
+.projects__title {
+   font-size: 30px;
+}
+.projects__text {
+   font-size: 18px;
+}
 /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .footer {
    display: flex;
